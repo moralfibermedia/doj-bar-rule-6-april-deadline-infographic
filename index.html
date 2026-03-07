@@ -39,7 +39,7 @@
     --red: #c0392b;
     --gold: #b8860b;
     --steel: #2c3e50;
-    --muted: #6b6256;
+    --muted: #3d3530;
     --rule: #c0b89a;
   }
 
@@ -54,9 +54,9 @@
   }
 
   .page {
-    max-width: 860px;
+    max-width: 1020px;
     margin: 0 auto;
-    padding: 48px 32px;
+    padding: 52px 44px;
   }
 
   /* MASTHEAD */
@@ -70,14 +70,14 @@
   }
   .masthead .kicker {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--muted);
   }
   .masthead h1 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(28px, 5vw, 52px);
+    font-size: clamp(36px, 5.5vw, 66px);
     font-weight: 900;
     line-height: 1.05;
     letter-spacing: -1px;
@@ -89,11 +89,11 @@
   }
   .dateline {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--muted);
-    padding: 6px 0;
+    padding: 8px 0;
     border-top: 1px solid var(--rule);
     margin-top: 8px;
   }
@@ -102,10 +102,10 @@
   .intro-bar {
     background: var(--ink);
     color: var(--paper);
-    padding: 14px 20px;
+    padding: 20px 28px;
     margin: 0 0 28px;
     font-family: 'Source Serif 4', serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     font-style: italic;
     line-height: 1.6;
@@ -120,7 +120,7 @@
   /* SECTION LABELS */
   .section-label {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--muted);
@@ -145,7 +145,7 @@
 
   .flow-box {
     border: 1.5px solid var(--ink);
-    padding: 14px 12px;
+    padding: 18px 16px;
     text-align: center;
     background: white;
     position: relative;
@@ -157,13 +157,13 @@
   }
   .flow-box .fb-title {
     font-family: 'Playfair Display', serif;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 4px;
     line-height: 1.2;
   }
   .flow-box .fb-sub {
-    font-size: 10px;
+    font-size: 13px;
     font-style: italic;
     color: var(--muted);
     line-height: 1.3;
@@ -179,7 +179,7 @@
   }
 
   .flow-caption {
-    font-size: 10px;
+    font-size: 13px;
     font-style: italic;
     color: var(--muted);
     text-align: center;
@@ -201,8 +201,8 @@
   }
 
   .circle-ag {
-    width: 140px;
-    height: 140px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     background: var(--ink);
     color: white;
@@ -217,12 +217,12 @@
   }
   .circle-ag .c-title {
     font-family: 'Playfair Display', serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 1.2;
   }
   .circle-ag .c-sub {
-    font-size: 9px;
+    font-size: 12px;
     font-style: italic;
     color: rgba(255,255,255,0.6);
     margin-top: 3px;
@@ -231,7 +231,7 @@
 
   .conflict-cols {
     display: grid;
-    grid-template-columns: 1fr 160px 1fr;
+    grid-template-columns: 1fr 190px 1fr;
     gap: 12px;
     align-items: center;
     margin-top: 0;
@@ -239,14 +239,14 @@
 
   .conflict-item {
     border: 1.5px solid var(--rule);
-    padding: 12px;
+    padding: 16px;
     background: white;
-    font-size: 11.5px;
+    font-size: 15px;
     line-height: 1.5;
   }
   .conflict-item .ci-head {
     font-family: 'Playfair Display', serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: 5px;
     color: var(--red);
@@ -282,7 +282,7 @@
   }
   .violation-row.header span {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--muted);
@@ -297,20 +297,20 @@
   }
   .v-charge {
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 4px;
   }
   .v-detail {
-    font-size: 11px;
+    font-size: 14px;
     color: var(--muted);
     font-style: italic;
     line-height: 1.4;
   }
   .v-cite {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 13px;
     color: var(--steel);
     line-height: 1.6;
     border-left: 2px solid var(--rule);
@@ -320,7 +320,7 @@
     display: block;
     color: var(--ink);
     font-weight: 700;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   /* COMPARISON */
@@ -347,7 +347,7 @@
   }
   .compare-col .col-head {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 12px;
@@ -364,8 +364,8 @@
     gap: 8px;
     margin-bottom: 10px;
     align-items: start;
-    font-size: 12px;
-    line-height: 1.45;
+    font-size: 15px;
+    line-height: 1.55;
   }
   .compare-item .icon {
     flex-shrink: 0;
@@ -396,7 +396,7 @@
   }
   .verdict-text {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(15px, 2.5vw, 20px);
+    font-size: clamp(19px, 2.5vw, 26px);
     font-weight: 700;
     line-height: 1.45;
     font-style: italic;
@@ -420,7 +420,7 @@
   }
   .cta-deadline {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255,255,255,0.75);
@@ -428,7 +428,7 @@
   }
   .cta-headline {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(18px, 3vw, 26px);
+    font-size: clamp(22px, 3vw, 32px);
     font-weight: 900;
     color: white;
     line-height: 1.2;
@@ -436,7 +436,7 @@
   }
   .cta-sub {
     font-family: 'Source Serif 4', serif;
-    font-size: 13px;
+    font-size: 16px;
     color: rgba(255,255,255,0.85);
     font-style: italic;
     line-height: 1.5;
@@ -444,7 +444,7 @@
   }
   .cta-explain {
     font-family: 'Source Serif 4', serif;
-    font-size: 11.5px;
+    font-size: 14px;
     color: rgba(255,255,255,0.7);
     line-height: 1.55;
     margin-bottom: 20px;
@@ -457,7 +457,7 @@
     background: white;
     color: var(--red);
     font-family: 'Playfair Display', serif;
-    font-size: clamp(16px, 2.5vw, 22px);
+    font-size: clamp(20px, 2.5vw, 26px);
     font-weight: 900;
     text-align: center;
     text-decoration: none;
@@ -476,7 +476,7 @@
   .cta-btn .btn-sub {
     display: block;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     opacity: 0.65;
@@ -502,7 +502,7 @@
   }
   .instructions-heading {
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     color: white;
     margin-bottom: 12px;
@@ -515,7 +515,7 @@
   }
   .instructions-list li {
     font-family: 'Source Serif 4', serif;
-    font-size: 12.5px;
+    font-size: 16px;
     color: rgba(255,255,255,0.88);
     line-height: 1.6;
     padding: 10px 0;
@@ -538,7 +538,7 @@
     background: rgba(255,255,255,0.15);
     border: 1px solid rgba(255,255,255,0.25);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 13px;
     padding: 1px 7px;
     margin-left: 4px;
     letter-spacing: 1px;
@@ -561,7 +561,7 @@
   }
   .countdown-label {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255,255,255,0.5);
@@ -590,7 +590,7 @@
   }
   .countdown-tz {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: rgba(255,255,255,0.35);
@@ -611,7 +611,7 @@
   }
   .copy-block-label {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: rgba(255,255,255,0.5);
@@ -636,7 +636,7 @@
   .copy-btn.copied { background: rgba(255,255,255,0.3); }
   .comment-text {
     font-family: 'Source Serif 4', serif;
-    font-size: 11.5px;
+    font-size: 15px;
     color: rgba(255,255,255,0.9);
     line-height: 1.65;
     background: transparent;
@@ -684,20 +684,20 @@
   }
   .dive-title {
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 3px;
   }
   .dive-desc {
-    font-size: 11px;
+    font-size: 14px;
     color: var(--muted);
     font-style: italic;
     line-height: 1.4;
   }
   .dive-url {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     color: var(--muted);
     margin-top: 2px;
     letter-spacing: 0.5px;
@@ -1141,7 +1141,7 @@ function copyComment(btn) {
   }
   .license-text {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     color: var(--muted);
     letter-spacing: 0.5px;
     line-height: 1.7;
