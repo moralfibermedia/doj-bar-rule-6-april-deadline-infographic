@@ -2,7 +2,7 @@
 
 **An interactive civic journalism tool built to drive public comment on a proposed federal rule that would shield DOJ attorneys from independent state bar oversight.**
 
-🔗 **[View the live infographic →]([https://doj-bar-rule-6-april-deadline.netflify.app](https://doj-bar-rule-6-april-deadline.netlify.app/))**  
+🔗 **[View the live infographic →](https://doj-bar-rule-6-april-deadline.netlify.app)**  
 📅 **Comment deadline: April 6, 2026 — Midnight Eastern / 9 PM Pacific**  
 📬 **Submit directly: [regulations.gov/commenton/DOJ-OAG-2026-0001-0001](https://www.regulations.gov/commenton/DOJ-OAG-2026-0001-0001)**
 
